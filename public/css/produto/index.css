@@ -1,0 +1,112 @@
+.list-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+}
+
+.list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2B3990;
+}
+
+/* Mensagens */
+.alert-success {
+    background: #e6ffed;
+    border: 1px solid #a3f3b4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: #276749;
+    font-size: 14px;
+}
+
+.empty-message {
+    text-align: center;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Tabela */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.product-table th,
+.product-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.product-table thead {
+    background: #2B3990;
+    color: white;
+}
+
+.product-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.actions {
+    text-align: center;
+}
+
+/* Botões */
+.btn-primary,
+.btn-edit,
+.btn-delete {
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn-primary {
+    background: #2B3990;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1f2b6d;
+}
+
+.btn-edit {
+    background: #ffc107;
+    color: #333;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.btn-edit:hover {
+    background: #e0a800;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-delete:hover {
+    background: #b02a37;
+}
+
+/* Form inline para excluir */
+.inline-form {
+    display: inline;
+}
+
+/* Botão inferior */
+.btn-wrapper {
+    text-align: center;
+}

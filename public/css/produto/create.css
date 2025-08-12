@@ -1,0 +1,95 @@
+/* Container principal */
+.form-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2B3990;
+}
+
+/* Labels */
+.form-container label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Inputs e textarea */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    background-color: #fafafa;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    border-color: #2B3990;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(43, 57, 144, 0.15);
+}
+
+/* Botões */
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #2B3990;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1f2b6d;
+}
+
+.btn-secondary {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: #bbb;
+}
+
+/* Alert de erro */
+.alert {
+    background-color: #ffe5e5;
+    color: #c00;
+    border: 1px solid #ffb3b3;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
